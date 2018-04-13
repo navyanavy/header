@@ -1,3 +1,6 @@
+Written code in app.component.html and app.component.ts and styles in app.component.css
+Implemented header with html, typescript, css and WCAG.
+
 # MyAngular4App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
