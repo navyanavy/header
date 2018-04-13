@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-default" aria-label="main navigation" role="navigation">
+    <div class="collapse navbar-collapse container-fluid">
+      <ul class="navbar-nav nav-menu">
+        <li>
+            <a class="navbar-brand visa-logo" href="https://usa.visa.com/">
+                <img src="/assets/images/visalogo.jpg" class="visa-logo" aria-label="Visa logo" alt="visalogo" title="Visa logo">
+            </a>
+        </li>
+        <li class="nav-item" *ngFor="let names of menuTitle" role="menuitem">
+            <a class="nav-link" tabindex="0"> {{names.name}} </a>        
+        </li>
+      </ul>
+    </div>
+</nav>
+<div class="nav-line">
+    <div class="nav-indicator"></div>
+</div>
+

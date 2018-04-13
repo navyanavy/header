@@ -1,0 +1,41 @@
+.navbar {
+    background: linear-gradient(45deg,#1a1e5a 0,#122d98 100%);
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 0px solid transparent;
+    border-radius: 0%;
+}
+.nav-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav li a {
+    color: #CDD6DA;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'open-sans',sans-serif,Tahoma;
+    font-weight: 300;
+}
+
+.navbar-nav li a:hover{
+    color: #E99554;
+}
+.navbar-nav li a:focus{
+    color: #E99554;
+}
+.visa-logo {
+    height: 54px;
+    width: 160px;
+    padding-top: 0;
+    margin-right: 30px;
+}
+.nav-line {
+    height: 5px;
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    z-index: 3;
+    background-color: #F2CA13;
+}
